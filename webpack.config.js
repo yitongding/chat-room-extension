@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   context: path.join(__dirname, 'src'),
-  entry: ['babel-polyfill', './js/index.js'],
+  entry: ['babel-polyfill', './index.js'],
   devtool: 'inline-source-map',
   module: {
     loaders: [
