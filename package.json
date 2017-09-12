@@ -1,0 +1,52 @@
+{
+  "name": "chatroomext",
+  "version": "1.0.0",
+  "description": "Chrome Chatroom Ext Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yitong Ding",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "history": "^4.7.2",
+    "mongoose": "4.10.8",
+    "path": "^0.12.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.4.1",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.5.6"
+  },
+  "repository": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "nodemon": "^1.12.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack-bundle-analyzer": "^2.9.0"
+  }
+}
